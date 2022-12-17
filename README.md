@@ -42,7 +42,7 @@ The two approaches to train the agent to find the optimal policy π:
 
 <img src="source/images/meme_1.jpg" width="30%" height="30%">
 
-😏🌶**Deep**: use deep neural networks to estimate the action to take (policy-based) or to estimate the value of a state (value-based) 
+**Deep**: use deep neural networks to estimate the action to take (policy-based) or to estimate the value of a state (value-based) 😏
 
 ...to be continued
 
