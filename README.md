@@ -70,7 +70,7 @@ Thus, to calculate EACH value of a state or a state-action pair -> expensive com
 
 <img src="source/images/MC_vs_TDL.jpg" width="50%" height="50%">
 
-## Q-Learning
+**Q-Learning**
 
 Q-Learning is an off-policy value-based method that uses a TD approach to train its action-value function (whatever it means)
 
