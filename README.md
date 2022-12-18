@@ -62,10 +62,10 @@ There is always a policy. Optimal policy is π*. Optimal value function is Q or 
 
 - Policy-Based methods ⬇🔙🔝: train the policy, the policy is a NN, no value function. π* is found by training the policy directly.
 - Value-Based methods 🏆💰📈: do not train the policy, the policy is a funсtion defined by hand, instead train a value-funсtion that is a NN. Find the optimal value function -> have an optimal policy, `π*(s)=arg max_a Q*(s, a)`
-  - state-value function (`V_π(s)`): for each state, the state-value function outputs the expected return if the agent starts at that state and then follows the policy forever after(for all future timesteps). **Calculate the value of state S_t**
-  - action-value function (`Q_π(s, a)`): for each state and action pair, the action-value function outputs the expected return if the agent starts in that state and takes action, and then follows the policy forever after. **Calculate the value of state-action pair (S_t, A_t)**
+  - state-value function 🧘 (`V_π(s)`): for each state, the state-value function outputs the expected return if the agent starts at that state and then follows the policy forever after(for all future timesteps). **Calculate the value of state S_t**
+  - action-value function 🏃‍ (`Q_π(s, a)`): for each state and action pair, the action-value function outputs the expected return if the agent starts in that state and takes action, and then follows the policy forever after. **Calculate the value of state-action pair (S_t, A_t)**
   
-Thus, to calculate EACH value of a state or a state-action pair -> expensive computationally 🖥️💰📈 -> Bellman equation! ❤️🤓 Recursion! So math, such science!
+Thus, to calculate EACH value of a state or a state-action pair -> expensive computationally 🖥️💰📈 -> Bellman equation! Recursion! So math, such science! ❤️🤓
 
 **The Bellman equation**: instead of calculating each value as the sum of the expected return, sum immediate reward + the discounted value of the state that follows.
 
